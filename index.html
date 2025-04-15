@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home/X</title>
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="./src/output.css">
+
+</head>
+
+<body class="bg-black text-white">
+    <div class="flex container mx-auto">
+        <div class="first w-[70%]">
+            <div class="logo invert my-4">
+                <svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="w-8 ml-[126px] r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                    <g>
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <div class="sidebar flex flex-col items-end text-2xl">
+                <ul class="flex flex-col text-xl space-y-2 px-14">
+                    <li
+                        class="flex justify-start items-center gap-3 font-bold w-fit px-5 py-3 hover:bg-[#16181c] hover:cursor-pointer hover:rounded-full">
+                        <span class="text-3xl material-symbols-outlined">home</span>Home
+                    </li>
+
+                    <li class="flex justify-start items-center gap-4 w-fit px-5 py-3 hover:bg-[#16181c] hover:cursor-pointer hover:rounded-full"><span
+                            class=" text-3xl material-symbols-outlined ">search</span>Explore</li> 
+
+                    <li class=" flex justify-start items-center gap-4 w-fit px-5 py-3 hover:bg-[#16181c]
+                        hover:cursor-pointer hover:rounded-full"><span
+                            class="text-3xl material-symbols-outlined ">notifications</span>Notifications</li>
+
+                    <li class=" flex justify-start items-center gap-4 w-fit px-5 py-3 hover:bg-[#16181c]
+                        hover:cursor-pointer hover:rounded-full"><span
+                            class=" text-3xl material-symbols-outlined ">sms</span>Messages</li>
+
+                    <li class=" flex justify-start items-center gap-4 w-fit px-5 py-3 hover:bg-[#16181c]
+                        hover:cursor-pointer hover:rounded-full"><span
+                            class="text-3xl material-symbols-outlined ">home</span>Grok</li>
+
+                    <li class="flex justify-start items-center gap-4 w-fit px-5 py-3 hover:bg-[#16181c] hover:cursor-pointer hover:rounded-full"><span
+                            class=" text-3xl material-symbols-outlined ">bookmark</span>Bookmarks</li>
+
+                    <li class=" flex justify-start items-center gap-4 w-fit px-5 py-3 hover:bg-[#16181c]
+                        hover:cursor-pointer hover:rounded-full"><span
+                            class="text-3xl material-symbols-outlined ">communities</span>Communities</li>
+
+                    <li class="flex justify-start items-center gap-4 w-fit px-5 py-3 hover:bg-[#16181c] hover:cursor-pointer hover:rounded-full"><span
+                            class=" text-3xl material-symbols-outlined ">workspace_premium</span>Premium</li>
+
+                    <li class=" flex justify-start items-center gap-4 w-fit px-5 py-3 hover:bg-[#16181c]
+                        hover:cursor-pointer hover:rounded-full"><span
+                            class="text-3xl material-symbols-outlined ">verified_user</span>Verified Orgs</li>
+
+                    <li class="flex justify-start items-center gap-4 w-fit px-5 py-3 hover:bg-[#16181c] hover:cursor-pointer hover:rounded-full"><span
+                            class=" text-3xl material-symbols-outlined ">person</span>Profile</li>
+
+                    <li class=" flex justify-start items-center gap-4 w-fit px-5 py-3 hover:bg-[#16181c]
+                        hover:cursor-pointer hover:rounded-full"><span
+                            class="text-3xl material-symbols-outlined ">more</span>More</li>
+                    <li>
+                        <div class="button w-full text-center my-5">
+                            <button
+                                class="bg-white text-black px-[98px] py-3 text-xl rounded-full font-bold hover:cursor-pointer hover:bg-[#eff3f4]">Post</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="second w-full border-[1px] border-x-white border-y-black">
+
+            <div class="top flex p-3 relative">
+
+                <div class="absolute rounded-full w-14 h-1 bg-blue-600 bottom-0 left-[21%]">
+                </div>
+
+                <div class="left bg-red-5001 w-1/2 flex justify-center font-bold text-lg cursor-pointer">
+                    For You</div>
+
+                <div class="right bg-green-5001 w-1/2 flex justify-center font-bold text-lg cursor-pointer">Following
+                </div>
+
+                <!-- <div class="settings"></div> -->
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+
+            <div class="whatshappen flex gap-4">
+                <div class="img m-3">
+                    <img class="h-10 w-12 rounded-full hover:cursor-pointer" src="images/img1.jpg" alt="image">
+                </div>
+                <div class="w-full">
+                    <input class="w-full h-8 my-4 outline-none text-xl" type="text" placeholder="Whats's happening?">
+                    <div class="text-blue-600 flex items-center gap-1 w-full my-[2px]">
+                        <span class="material-symbols-outlined hover:cursor-pointer">
+                            public
+                        </span>
+                        <div class="hover:cursor-pointer">
+                            <span class="font-bold">Everyone can reply</span>
+                            <!-- <div class="w-[100%] h-[0.2px] bg-white my-3"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full flex flex-row items-center m-8 text-2xl gap-3 hover:cursor-pointer">
+                <!-- <div> -->
+                <span class="m-1 material-symbols-outlined">
+                    imagesmode
+                </span>
+                <span class="m-1 material-symbols-outlined">
+                    gif_box
+                </span>
+                <span class="m-1 material-symbols-outlined">
+                    mood
+                </span>
+                <span class="m-1 material-symbols-outlined">
+                    schedule
+                </span>
+                <span class="m-1 material-symbols-outlined">
+                    location_on
+                </span>
+                <!-- </div> -->
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+
+            <div class="posts">
+                <div class="post">
+                    <div class="flex">
+                        <div class="image m-3">
+                            <img class="h-10 w-[110px] rounded-full cursor-pointer" src="images/PHOTO.jpeg" alt="image">
+                        </div>
+                        <div class="content my-2">
+                            <span class="cursor-pointer hover:underline font-bold">
+                                Non aesthetic things
+                            </span>
+                            <span class="text-gray-500 hover:cursor-pointer">@amansah_00 . 6h</span>
+                            <div class="cursor-pointer">“दलित पैदा हुआ है, राज नहीं कर सकता” —
+                                बाबा साहेब ने ये झूठ इतिहास में दफन कर दिया।
+                                जिस जाति को सदियों तक सिर्फ सेवा के लिए बनाया गया,
+                                जिसे मंदिरों से निकाला गया,
+                                उस जाति का बेटा संविधान लिखकर सत्ता के शिखर पर बैठा।</div>
+                            <div class="postimg my-4 mr-5">
+                                <img class="h-auto w-auto rounded-2xl" src="images/babasaheb.jpeg" alt="image">
+                            </div>
+                            <div class="posticons flex justify-between mx-3 text-gray-500 cursor-pointer">
+                                <div class="icon flex items-center justify-between hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        comment
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-300">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-pink-500">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400 ">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        arrow_upward
+                                    </span>1k
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+            <div class="posts">
+                <div class="post">
+                    <div class="flex">
+                        <div class="image m-3">
+                            <img class="h-10 w-13 rounded-full cursor-pointer" src="images/PHOTO.jpeg" alt="image">
+                        </div>
+                        <div class="content my-2">
+                            <span class="cursor-pointer hover:underline font-bold">
+                                Non aesthetic things
+                            </span>
+                            <span class="text-gray-500 hover:cursor-pointer">@osmakhan . 6h</span>
+                            <div class="cursor-pointer">The sand tickled my toes playfully.</div>
+                            <div class="postimg my-4 mr-5">
+                                <img class="h-auto w-auto rounded-2xl" src="images/aigf.png" alt="image">
+                            </div>
+                            <div class="posticons flex justify-between mx-3 text-gray-500 cursor-pointer">
+                                <div class="icon flex items-center justify-between hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        comment
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-300">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-pink-500">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        arrow_upward
+                                    </span>1k
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+            <div class="posts">
+                <div class="post">
+                    <div class="flex">
+                        <div class="image m-3">
+                            <img class="h-10 w-13 rounded-full cursor-pointer" src="images/PHOTO.jpeg" alt="image">
+                        </div>
+                        <div class="content my-2">
+                            <span class="cursor-pointer hover:underline font-bold">
+                                Non aesthetic things
+                            </span>
+                            <span class="text-gray-500 hover:cursor-pointer">@Apple . 6h</span>
+                            <div class="cursor-pointer">Mac mini is big power in a small size</div>
+                            <div class="postimg my-4 mr-5">
+                                <img class="h-auto w-auto rounded-2xl" src="images/mac.jpeg" alt="image">
+                            </div>
+                            <div class="posticons flex justify-between mx-3 text-gray-500 cursor-pointer">
+                                <div class="icon flex items-center justify-between hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        comment
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-300">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-pink-500">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        arrow_upward
+                                    </span>1k
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+            <div class="posts">
+                <div class="post">
+                    <div class="flex">
+                        <div class="image m-3">
+                            <img class="h-10 w-10 rounded-full cursor-pointer" src="images/PHOTO.jpeg" alt="image">
+                        </div>
+                        <div class="content my-2">
+                            <span class="cursor-pointer hover:underline font-bold">
+                                Non aesthetic things
+                            </span>
+                            <span class="text-gray-500 hover:cursor-pointer">@malPani . 6h</span>
+                            <div class="cursor-pointer">Made in India = Assemble in India!</div>
+                            <div class="postimg my-4 mr-5">
+                                <img class="h-auto w-auto rounded-2xl" src="images/car.jpeg" alt="image">
+                            </div>
+                            <div class="posticons flex justify-between mx-3 text-gray-500 cursor-pointer">
+                                <div class="icon flex items-center justify-between hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        comment
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-300">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-pink-500">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        arrow_upward
+                                    </span>1k
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+            <div class="posts">
+                <div class="post">
+                    <div class="flex">
+                        <div class="image m-3">
+                            <img class="h-10 w-16 rounded-full cursor-pointer" src="images/PHOTO.jpeg" alt="image">
+                        </div>
+                        <div class="content my-2">
+                            <span class="cursor-pointer hover:underline font-bold">
+                                Non aesthetic things
+                            </span>
+                            <span class="text-gray-500 hover:cursor-pointer">@AtlasMartin . 6h</span>
+                            <div class="cursor-pointer">🧵 WHAT YOU'RE NOT HEARING: The Chinese cannot replace the U.S.
+                                market. Without it, the Chinese economy collapses.</div>
+                            <div class="postimg my-4 mr-5">
+                                <img class="h-auto w-auto rounded-2xl" src="images/usa_china.jpeg" alt="image">
+                            </div>
+                            <div class="posticons flex justify-between mx-3 text-gray-500 cursor-pointer">
+                                <div class="icon flex items-center justify-between hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        comment
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-300">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-pink-500">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        arrow_upward
+                                    </span>1k
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+            <div class="posts">
+                <div class="post">
+                    <div class="flex">
+                        <div class="image m-3">
+                            <img class="h-10 w-10 rounded-full cursor-pointer" src="images/PHOTO.jpeg" alt="image">
+                        </div>
+                        <div class="content my-2">
+                            <span class="cursor-pointer hover:underline font-bold">
+                                Non aesthetic things
+                            </span>
+                            <span class="text-gray-500 hover:cursor-pointer">@askrajsharma . 6h</span>
+                            <div class="cursor-pointer">मामले में पीएम मोदी की फटकार के बाद पुलिस और</div>
+                            <div class="postimg my-4 mr-5">
+                                <img class="h-auto w-auto rounded-2xl" src="images/police.png" alt="image">
+                            </div>
+                            <div class="posticons flex justify-between mx-3 text-gray-500 cursor-pointer">
+                                <div class="icon flex items-center justify-between hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        comment
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-300">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-pink-500">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        arrow_upward
+                                    </span>1k
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+            <div class="posts">
+                <div class="post">
+                    <div class="flex">
+                        <div class="image m-2">
+                            <img class="h-10 w-13 rounded-full cursor-pointer" src="images/PHOTO.jpeg" alt="image">
+                        </div>
+                        <div class="content my-2">
+                            <span class="cursor-pointer hover:underline font-bold">
+                                Non aesthetic things
+                            </span>
+                            <span class="text-gray-500 hover:cursor-pointer">@muskelon . 6h</span>
+                            <div class="cursor-pointer">Such a great night!</div>
+                            <div class="postimg my-4 mr-5">
+                                <img class="h-auto w-auto rounded-2xl" src="images/elonmusk.jpeg" alt="image">
+                            </div>
+                            <div class="posticons flex justify-between mx-3 text-gray-500 cursor-pointer">
+                                <div class="icon flex items-center justify-between hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        comment
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-300">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-pink-500">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-400">
+                                    <span class="material-symbols-outlined">
+                                        arrow_upward
+                                    </span>1k
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+
+
+        </div>
+
+        <div class="third w-full">
+            <div class="search m-2">
+                <input type="text"
+                    class="w-1/2 font-medium rounded-full bg-black border-[0.2px] text-white hover:border-blue-600 px-4 py-3 ml-6 outline-none"
+                    placeholder="Search">
+            </div>
+
+            <div class="whats m-8 bg-black w-[18vw] py-3 rounded-xl space-y-3 border-[0.5px]">
+                <h1 class="text-xl font-bold px-3">What's Happening</h1>
+
+                <div class="item px-3 p-2 hover:bg-[#08090a] cursor-pointer">
+                    <div class="text-sm text-gray-300">Trending in India</div>
+
+                    <div class="text-sm font-bold text-gray-200">#India #India</div>
+
+                    <div class="text-sm text-gray-300">340.1k Posts</div>
+                </div>
+
+                <div class="item px-3 p-3 hover:bg-[#08090a] cursor-pointer">
+                    <div class="text-sm text-gray-300">Narendra Modi</div>
+
+                    <div class="text-sm font-bold text-gray-200">#pmoIndia</div>
+
+                    <div class="text-sm text-gray-300">840.4k Posts</div>
+                </div>
+
+                <div class="item px-3 p-3 hover:bg-[#08090a] cursor-pointer">
+                    <div class="text-sm text-gray-300">Trending Chhava</div>
+
+                    <div class="text-sm font-bold text-gray-200">#chhava</div>
+
+                    <div class="text-sm text-gray-300">101.8k Posts</div>
+                </div>
+
+                <div class="item px-3 p-3 hover:bg-[#08090a] cursor-pointer">
+                    <div class="text-sm text-gray-300">Trending</div>
+
+                    <div class="text-sm font-bold text-gray-200">#IPL 2025</div>
+
+                    <div class="text-sm text-gray-300">30.3k Posts</div>
+                </div>
+
+                <div class="item px-3 p-3 hover:bg-[#08090a] cursor-pointer">
+                    <div class="text-sm text-gray-300">India</div>
+
+                    <div class="text-sm font-bold text-gray-200">#amansah</div>
+
+                    <div class="text-sm text-gray-300">60.8k Posts</div>
+                </div>
+
+            </div>
+
+            <div class="whats m-8 bg-black w-[18vw] py-5 rounded-xl space-y-3 border-[1px]">
+                <h1 class="text-xl font-bold px-3">Who to follow</h1>
+
+                <div class="item px-3 p-3 space-y-2">
+                    <div class="image flex hover:bg-[#08090a] cursor-pointer">
+                        <img class="h-10 w-10 rounded-full" src="images/csk.jpg" alt="image">
+                        <div class="font-bold text-gray-200 p-1">CSK</div>
+                        <div class="btn">
+                            <button
+                                class="w-18 bg-white text-black p-1 font-medium cursor-pointer rounded-4xl ml-[172px] mt-2 hover:bg-[#eff3f4]">Follow
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="image flex hover:bg-[#08090a] cursor-pointer">
+                        <img class="h-10 w-10 mt-1.5 rounded-full" src="images/akshay.jpg" alt="image">
+                        <div class="font-bold text-gray-200 p-1 m-1">Akshay Kumar</div>
+                        <div class="btn">
+                            <button
+                                class="w-18 bg-white text-black p-1 font-medium cursor-pointer rounded-4xl ml-[105px] mt-3 hover:bg-[#eff3f4]">Follow
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="image flex hover:bg-[#08090a] cursor-pointer">
+                        <img class="h-10 w-10 mt-2.5 rounded-full" src="images/modi.jpg" alt="image">
+                        <div class="font-bold text-gray-200 p-1 m-1">Narendra Modi</div>
+                        <div class="btn">
+                            <button
+                                class="w-18 bg-white text-black p-1 font-medium cursor-pointer rounded-4xl ml-[108px] mt-3 hover:bg-[#eff3f4]">Follow
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="image flex hover:bg-[#08090a] cursor-pointer">
+                        <img class="h-10 w-10 mt-2.5 rounded-full" src="images/musk.jpg" alt="image">
+                        <div class="font-bold text-gray-200 p-1 m-1">Elon Musk</div>
+                        <div class="btn">
+                            <button
+                                class="w-18 bg-white text-black p-1 font-medium cursor-pointer rounded-4xl ml-[122px] mt-3 hover:bg-[#eff3f4]">Follow
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-blue-800 my-1 px-3 cursor-pointer">Show More</div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
